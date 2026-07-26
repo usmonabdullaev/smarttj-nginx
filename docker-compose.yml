@@ -16,8 +16,8 @@ services:
       - ./certbot/conf:/etc/letsencrypt:ro
 
     networks:
-      - smarttj-public
+      - smarttj-network
 
 networks:
-  smarttj-public:
+  smarttj-network:
     external: true
